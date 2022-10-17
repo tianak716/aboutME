@@ -30,10 +30,12 @@ h1 {
 ul {
   text-align: center;
   list-style-position: inside;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 ol {
   text-align: center;
   list-style-position: inside;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 @font-face {
   font-family: "bluecheries";
@@ -51,5 +53,24 @@ h2 {
   width: 300px;
   display: inline-block;
 }
-a {
+.a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: right;
+}
+li a {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+@media(max-width:500px) {
+  ul{
+    font-size: 20px;
+   font-family:'Courier New', Courier, monospace;
+   font-weight: bold;
+   }
+   
+}
+@media(max-width:500px) {
+  img{
+    width: 300px;
+  }
 }
